@@ -1,0 +1,2364 @@
+[
+	{
+		"marque": "audi",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "a3",
+		"consommation l/100km": "8.6999999999999993"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "a4",
+		"consommation l/100km": "8.9"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "a5 quattro",
+		"consommation l/100km": "9.6"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "a6 quattro",
+		"consommation l/100km": "9.9"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "a7 quattro",
+		"consommation l/100km": "9.9"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "a8 quattro",
+		"consommation l/100km": "10.7"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "q3",
+		"consommation l/100km": "10.3"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "s3 quattro",
+		"consommation l/100km": "9"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "s4 quattro",
+		"consommation l/100km": "11.7"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "s5 cabriolet quattro",
+		"consommation l/100km": "11.4"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "s6 quattro",
+		"consommation l/100km": "11.3"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "s7 quattro",
+		"consommation l/100km": "11.4"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "s8 quattro",
+		"consommation l/100km": "13.4"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "2",
+		"véhicule": "228 i",
+		"consommation l/100km": "9"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Diesel",
+		"cylindre": "4",
+		"véhicule": "328d xdrive",
+		"consommation l/100km": "6.8"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "340i",
+		"consommation l/100km": "9.3000000000000007"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "428i gran coupe",
+		"consommation l/100km": "8.9"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "435i cabriolet",
+		"consommation l/100km": "9.9"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "435i xdrive cabriolet",
+		"consommation l/100km": "10.199999999999999"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Diesel",
+		"cylindre": "6",
+		"véhicule": "535d xdrive",
+		"consommation l/100km": "7.9"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "550i xdrive gran turismo",
+		"consommation l/100km": "12.1"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "650i xdrive coupe",
+		"consommation l/100km": "12.3"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "750li xdrive",
+		"consommation l/100km": "12.1"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "alpina b6 xdrive gran coupe",
+		"consommation l/100km": "12.1"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "m235i cabriolet",
+		"consommation l/100km": "10.5"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "m4 cabriolet",
+		"consommation l/100km": "11.8"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "m5",
+		"consommation l/100km": "14.7"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "m6 cabriolet",
+		"consommation l/100km": "13.7"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "z4 sdrive28i",
+		"consommation l/100km": "9"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "camaro",
+		"consommation l/100km": "9.8000000000000007"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "camaro",
+		"consommation l/100km": "11.2"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "corvette",
+		"consommation l/100km": "11.7"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "corvette z06",
+		"consommation l/100km": "14.3"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "cruze",
+		"consommation l/100km": "6.8"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "impala",
+		"consommation l/100km": "9.1999999999999993"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "malibu",
+		"consommation l/100km": "9"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "sonic",
+		"consommation l/100km": "8.3000000000000007"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "spark",
+		"consommation l/100km": "6.9"
+	},
+	{
+		"marque": "fiat",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "500 cabrio",
+		"consommation l/100km": "7.9"
+	},
+	{
+		"marque": "fiat",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "500 hatchback",
+		"consommation l/100km": "6.8"
+	},
+	{
+		"marque": "fiat",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "500 abarth cabrio",
+		"consommation l/100km": "8.6"
+	},
+	{
+		"marque": "fiat",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "challenger srt hellcat 500 abarth hatchback",
+		"consommation l/100km": "7.8"
+	},
+	{
+		"marque": "fiat",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "charger 500l",
+		"consommation l/100km": "9.4"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "fiesta",
+		"consommation l/100km": "7.6"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "3",
+		"véhicule": "focus",
+		"consommation l/100km": "7.8"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "focus rs awd",
+		"consommation l/100km": "10.9"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "fusion",
+		"consommation l/100km": "8.4"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "mustang",
+		"consommation l/100km": "12.7"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Super",
+		"cylindre": "5",
+		"véhicule": "shelby gt350 mustang",
+		"consommation l/100km": "14.2"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "taurus awd",
+		"consommation l/100km": "12.6"
+	},
+	{
+		"marque": "honda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "accord coupe",
+		"consommation l/100km": "9.5"
+	},
+	{
+		"marque": "honda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "accord sport",
+		"consommation l/100km": "8"
+	},
+	{
+		"marque": "honda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "civic coupe",
+		"consommation l/100km": "7.7"
+	},
+	{
+		"marque": "honda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "civic sedan",
+		"consommation l/100km": "7.5"
+	},
+	{
+		"marque": "honda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "fit",
+		"consommation l/100km": "7.3"
+	},
+	{
+		"marque": "hyundai",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "accent",
+		"consommation l/100km": "7.7"
+	},
+	{
+		"marque": "hyundai",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "elantra",
+		"consommation l/100km": "7.5"
+	},
+	{
+		"marque": "hyundai",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "equus",
+		"consommation l/100km": "13.3"
+	},
+	{
+		"marque": "hyundai",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "genesis coupe",
+		"consommation l/100km": "12.1"
+	},
+	{
+		"marque": "hyundai",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "sonata sport/limited",
+		"consommation l/100km": "8.6"
+	},
+	{
+		"marque": "hyundai",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "veloster",
+		"consommation l/100km": "7.5"
+	},
+	{
+		"marque": "hyundai",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "veloster turbo",
+		"consommation l/100km": "8.3000000000000007"
+	},
+	{
+		"marque": "jaguar",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "f-type convertible",
+		"consommation l/100km": "10.5"
+	},
+	{
+		"marque": "jaguar",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "f-type project 7 convertible",
+		"consommation l/100km": "12.8"
+	},
+	{
+		"marque": "jaguar",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "xj r-sport 3.0 awd",
+		"consommation l/100km": "11.7"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "cadenza",
+		"consommation l/100km": "10.7"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "forte",
+		"consommation l/100km": "7.6"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "forte 5",
+		"consommation l/100km": "9.8000000000000007"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "forte koup",
+		"consommation l/100km": "9.4"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "optima",
+		"consommation l/100km": "7.4"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "optima hybrid ex",
+		"consommation l/100km": "6.4"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "rio",
+		"consommation l/100km": "7.7"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "rondo",
+		"consommation l/100km": "9.3000000000000007"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "soul",
+		"consommation l/100km": "8.8000000000000007"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "soul eco dynamics",
+		"consommation l/100km": "8.8000000000000007"
+	},
+	{
+		"marque": "lamborghini",
+		"carburant": "Essence Super",
+		"cylindre": "12",
+		"véhicule": "aventador coupe",
+		"consommation l/100km": "17.899999999999999"
+	},
+	{
+		"marque": "lamborghini",
+		"carburant": "Essence Super",
+		"cylindre": "12",
+		"véhicule": "aventador roadster",
+		"consommation l/100km": "19.3"
+	},
+	{
+		"marque": "lamborghini",
+		"carburant": "Essence Super",
+		"cylindre": "10",
+		"véhicule": "huracan",
+		"consommation l/100km": "14.2"
+	},
+	{
+		"marque": "lamborghini",
+		"carburant": "Essence Super",
+		"cylindre": "10",
+		"véhicule": "huracan spyder",
+		"consommation l/100km": "14.6"
+	},
+	{
+		"marque": "mazda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "cx-3",
+		"consommation l/100km": "7.6"
+	},
+	{
+		"marque": "mazda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "mazda3 4-door",
+		"consommation l/100km": "6.9"
+	},
+	{
+		"marque": "mazda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "mazda3 4-door (i-eloop)",
+		"consommation l/100km": "7.2"
+	},
+	{
+		"marque": "mazda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "mazda3 5-door",
+		"consommation l/100km": "7"
+	},
+	{
+		"marque": "mazda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "mazda6",
+		"consommation l/100km": "7.6"
+	},
+	{
+		"marque": "mazda",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "mx-5",
+		"consommation l/100km": "7.8"
+	},
+	{
+		"marque": "mazda",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "mx-5 (sil)",
+		"consommation l/100km": "7.8"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "amg c 63",
+		"consommation l/100km": "11.7"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "amg cla 45",
+		"consommation l/100km": "9.1"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "amg cls 63 s 4matic",
+		"consommation l/100km": "13.1"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "12",
+		"véhicule": "amg s 65",
+		"consommation l/100km": "15.5"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "12",
+		"véhicule": "amg sl 65",
+		"consommation l/100km": "14.2"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "b 250",
+		"consommation l/100km": "8"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "c 300 4matic",
+		"consommation l/100km": "9"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "c 450 amg sport 4matic",
+		"consommation l/100km": "10.4"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "cla 250 4matic ffv",
+		"consommation l/100km": "8.6"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "cls 400 4matic",
+		"consommation l/100km": "10.7"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "cls 550 4matic",
+		"consommation l/100km": "11.7"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Diesel",
+		"cylindre": "4",
+		"véhicule": "e 250 bluetec 4matic",
+		"consommation l/100km": "7.4"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "e 300 4matic",
+		"consommation l/100km": "10.199999999999999"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "e 400 4matic",
+		"consommation l/100km": "10.4"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "e 400 4matic wagon",
+		"consommation l/100km": "10.8"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "e 550 4matic",
+		"consommation l/100km": "11.4"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "e 550 cabriolet",
+		"consommation l/100km": "11.7"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "12",
+		"véhicule": "maybach s 600",
+		"consommation l/100km": "15.3"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "s 550 4matic lwb",
+		"consommation l/100km": "12.5"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "12",
+		"véhicule": "s 600",
+		"consommation l/100km": "14.5"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "sl 550",
+		"consommation l/100km": "12.3"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "slk 300",
+		"consommation l/100km": "8.5"
+	},
+	{
+		"marque": "mercedes-benz",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "slk 350",
+		"consommation l/100km": "9.8000000000000007"
+	},
+	{
+		"marque": "mini",
+		"carburant": "Essence Super",
+		"cylindre": "3",
+		"véhicule": "cooper 3 ou 5 portes",
+		"consommation l/100km": "7.7"
+	},
+	{
+		"marque": "mini",
+		"carburant": "Essence Super",
+		"cylindre": "3",
+		"véhicule": "cooper clubman",
+		"consommation l/100km": "8.3000000000000007"
+	},
+	{
+		"marque": "mini",
+		"carburant": "Essence Super",
+		"cylindre": "3",
+		"véhicule": "cooper convertible",
+		"consommation l/100km": "7.7"
+	},
+	{
+		"marque": "mini",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "cooper s 3 door",
+		"consommation l/100km": "8.1999999999999993"
+	},
+	{
+		"marque": "mini",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "cooper s 5 door",
+		"consommation l/100km": "8.6999999999999993"
+	},
+	{
+		"marque": "mini",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "cooper s clubman",
+		"consommation l/100km": "8.5"
+	},
+	{
+		"marque": "mini",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "cls 400 4matic cooper s convertible",
+		"consommation l/100km": "8.5"
+	},
+	{
+		"marque": "mini",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "cooper s countryman all4",
+		"consommation l/100km": "9"
+	},
+	{
+		"marque": "mini",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "cooper s paceman all4",
+		"consommation l/100km": "8.6"
+	},
+	{
+		"marque": "mini",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "john cooper works",
+		"consommation l/100km": "9.1999999999999993"
+	},
+	{
+		"marque": "mini",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "john cooper works countryman all4",
+		"consommation l/100km": "9"
+	},
+	{
+		"marque": "mini",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "john cooper works paceman all4",
+		"consommation l/100km": "8.6"
+	},
+	{
+		"marque": "mitsubishi",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "lancer",
+		"consommation l/100km": "7.8"
+	},
+	{
+		"marque": "mitsubishi",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": " lancer c",
+		"consommation l/100km": "9.1999999999999993"
+	},
+	{
+		"marque": "mitsubishi",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "lancer 4wd",
+		"consommation l/100km": "9.1"
+	},
+	{
+		"marque": "mitsubishi",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "lancer sportback",
+		"consommation l/100km": "8.6999999999999993"
+	},
+	{
+		"marque": "mitsubishi",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "3",
+		"véhicule": "mirage",
+		"consommation l/100km": "6.3"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "370z",
+		"consommation l/100km": "11.5"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "370z roadster",
+		"consommation l/100km": "11.8"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "altima",
+		"consommation l/100km": "7.5"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "altima 3.5",
+		"consommation l/100km": "9"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "gt-r",
+		"consommation l/100km": "12.6"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "juke",
+		"consommation l/100km": "6.8"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "juke nismo rs",
+		"consommation l/100km": "8.3000000000000007"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "juke nismo rs awd",
+		"consommation l/100km": "8.8000000000000007"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "maxima",
+		"consommation l/100km": "9.5"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "micra",
+		"consommation l/100km": "7.7"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "murano",
+		"consommation l/100km": "9.8000000000000007"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "murano awd",
+		"consommation l/100km": "9.9"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "sentra",
+		"consommation l/100km": "7.9"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "versa",
+		"consommation l/100km": "7.6"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "911 carrera",
+		"consommation l/100km": "10.1"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "911 carrera cabriolet",
+		"consommation l/100km": "10.7"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "911 carrera gts",
+		"consommation l/100km": "11"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "911 carrera gts cabriolet",
+		"consommation l/100km": "11.6"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "911 carrera s",
+		"consommation l/100km": "10.5"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "911 carrera 4",
+		"consommation l/100km": "10.199999999999999"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "911 carrera 4 gts",
+		"consommation l/100km": "11.1"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "911 carrera 4 gts cabriolet",
+		"consommation l/100km": "11.4"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "911 carrera 4s",
+		"consommation l/100km": "11.6"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "911 targa 4",
+		"consommation l/100km": "10.8"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "panamera gts",
+		"consommation l/100km": "12.7"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "panamera s",
+		"consommation l/100km": "11.4"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "panamera 4s executive",
+		"consommation l/100km": "11.5"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "panamera turbo",
+		"consommation l/100km": "12.8"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "panamera turbo executive",
+		"consommation l/100km": "12.9"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "panamera turbo s",
+		"consommation l/100km": "12.9"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "avalon",
+		"consommation l/100km": "9.6999999999999993"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "camry",
+		"consommation l/100km": "8.1999999999999993"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "camry hybrid le",
+		"consommation l/100km": "5.7"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "corolla",
+		"consommation l/100km": "7.6"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "corolla le eco (1-mode)",
+		"consommation l/100km": "6.8"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "corolla le eco (2-mode)",
+		"consommation l/100km": "6.9"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "prius c",
+		"consommation l/100km": "4.7"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "yaris",
+		"consommation l/100km": "6.4"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "yaris (sil)",
+		"consommation l/100km": "6.7"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "yaris hatchback",
+		"consommation l/100km": "7.3"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "beetle",
+		"consommation l/100km": "8.4"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "beetle convertible",
+		"consommation l/100km": "8.4"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "beetle dune",
+		"consommation l/100km": "8.6999999999999993"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "cc",
+		"consommation l/100km": "9.3000000000000007"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "golf",
+		"consommation l/100km": "8.1"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "golf gti",
+		"consommation l/100km": "8.3000000000000007"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "golf r",
+		"consommation l/100km": "9.3000000000000007"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "golf sportwagon",
+		"consommation l/100km": "8.1"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "jetta",
+		"consommation l/100km": "8"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "jetta hybrid",
+		"consommation l/100km": "5.3"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "passat",
+		"consommation l/100km": "8.1"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "passat",
+		"consommation l/100km": "10.4"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "5",
+		"véhicule": "s60 cc t5 awd",
+		"consommation l/100km": "10.3"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "s60 inscription",
+		"consommation l/100km": "8.3000000000000007"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "5",
+		"véhicule": "s60 inscription t5 awd",
+		"consommation l/100km": "10.1"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "s60 t5",
+		"consommation l/100km": "8.3000000000000007"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "5",
+		"véhicule": "s60 t5 awd",
+		"consommation l/100km": "10.1"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "s60 t6",
+		"consommation l/100km": "9.3000000000000007"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "s60 t6 awd",
+		"consommation l/100km": "9.9"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "s60 3.0t awd",
+		"consommation l/100km": "11.2"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "s60 polestar",
+		"consommation l/100km": "11.2"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "5",
+		"véhicule": "v60 cc t5 awd",
+		"consommation l/100km": "10.3"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "v60 t6 awd",
+		"consommation l/100km": "9.9"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "v60 3.0t awd",
+		"consommation l/100km": "11.2"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "v60 polestar",
+		"consommation l/100km": "11.2"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "city express",
+		"consommation l/100km": "9.4"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "express 2500 passenger",
+		"consommation l/100km": "18.8"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "express 3500 passenger",
+		"consommation l/100km": "19.8"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "t-150 wagon",
+		"consommation l/100km": "14.6"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "t-150 wagon ffv",
+		"consommation l/100km": "15.2"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "transit connect van",
+		"consommation l/100km": "10.4"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "transit connect van ffv",
+		"consommation l/100km": "10.4"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "transit connect wagon",
+		"consommation l/100km": "10.7"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "transit connect wagon",
+		"consommation l/100km": "10.6"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "sedona",
+		"consommation l/100km": "11.6"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "sedona sx",
+		"consommation l/100km": "11.4"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "sedona sxl",
+		"consommation l/100km": "12.5"
+	},
+	{
+		"marque": "mazda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "mazda5",
+		"consommation l/100km": "9.6999999999999993"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "nv200 cargo van",
+		"consommation l/100km": "9.4"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "sienna",
+		"consommation l/100km": "11.4"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "sienna awd",
+		"consommation l/100km": "12.5"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "colorado",
+		"consommation l/100km": "10.8"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Diesel",
+		"cylindre": "4",
+		"véhicule": "colorado",
+		"consommation l/100km": "9.4"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "colorado",
+		"consommation l/100km": "11.3"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "colorado 4wd",
+		"consommation l/100km": "11.3"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Diesel",
+		"cylindre": "4",
+		"véhicule": "colorado 4wd",
+		"consommation l/100km": "10.3"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "colorado 4wd",
+		"consommation l/100km": "11.9"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "silverado",
+		"consommation l/100km": "12.7"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "silverado",
+		"consommation l/100km": "8"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "silverado ffv",
+		"consommation l/100km": "11.9"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "silverado ffv",
+		"consommation l/100km": "12.7"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "silverado 4wd",
+		"consommation l/100km": "14.2"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "silverado 4wd",
+		"consommation l/100km": "13.1"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "silverado 4wd ffv",
+		"consommation l/100km": "12.6"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "silverado 4wd ffv",
+		"consommation l/100km": "13.1"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "silverado eassist 4wd",
+		"consommation l/100km": "13"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "f-150",
+		"consommation l/100km": "10.9"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "f-150 (payload pkg)",
+		"consommation l/100km": "11.2"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "f-150 ffv",
+		"consommation l/100km": "13.2"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "f-150 ffv (payload pkg)",
+		"consommation l/100km": "14.5"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "f-150 4x4",
+		"consommation l/100km": "11.7"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "f-150 ffv 4x4",
+		"consommation l/100km": "12.5"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "f-150 ffv 4x4",
+		"consommation l/100km": "13.8"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "f-150 ffv 4x4 (payload pkg)",
+		"consommation l/100km": "14.8"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "frontier",
+		"consommation l/100km": "12.1"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "frontier",
+		"consommation l/100km": "12.7"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "frontier 4wd",
+		"consommation l/100km": "13.7"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "tacoma",
+		"consommation l/100km": "11.1"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "tacoma",
+		"consommation l/100km": "11.4"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "tacoma 4wd",
+		"consommation l/100km": "11.7"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "tacoma 4wd",
+		"consommation l/100km": "11.9"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "tacoma 4wd d-cab",
+		"consommation l/100km": "12.9"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "tundra",
+		"consommation l/100km": "14.3"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "tundra 4wd",
+		"consommation l/100km": "16.3"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "q5 quattro",
+		"consommation l/100km": "10.4"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "q5 quattro",
+		"consommation l/100km": "11.4"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "q5 hybrid quattro",
+		"consommation l/100km": "8.9"
+	},
+	{
+		"marque": "audi",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "sq5 quattro",
+		"consommation l/100km": "12.2"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "x1 xdrive28i",
+		"consommation l/100km": "9.1999999999999993"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Diesel",
+		"cylindre": "4",
+		"véhicule": "x3 xdrive28d",
+		"consommation l/100km": "7.9"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "x3 xdrive35i",
+		"consommation l/100km": "10.9"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "x4 m40i",
+		"consommation l/100km": "11.3"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Diesel",
+		"cylindre": "6",
+		"véhicule": "x5 xdrive35d",
+		"consommation l/100km": "8.9"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "x5 m",
+		"consommation l/100km": "14.6"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "x6 xdrive50i",
+		"consommation l/100km": "13.8"
+	},
+	{
+		"marque": "bmw",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "x6 m",
+		"consommation l/100km": "14.6"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "equinox",
+		"consommation l/100km": "12.1"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "suburban",
+		"consommation l/100km": "13"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "tahoe 4wd",
+		"consommation l/100km": "13.2"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "traverse",
+		"consommation l/100km": "13.4"
+	},
+	{
+		"marque": "chevrolet",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "trax",
+		"consommation l/100km": "8.1999999999999993"
+	},
+	{
+		"marque": "fiat",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "500x",
+		"consommation l/100km": "8.3000000000000007"
+	},
+	{
+		"marque": "fiat",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "500x awd",
+		"consommation l/100km": "9.6"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "edge",
+		"consommation l/100km": "9.8000000000000007"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "edge",
+		"consommation l/100km": "11.4"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "edge awd",
+		"consommation l/100km": "11.8"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "escape",
+		"consommation l/100km": "9.6"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "escape awd",
+		"consommation l/100km": "10"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "expedition el 4x4",
+		"consommation l/100km": "14.4"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "explorer ffv",
+		"consommation l/100km": "12"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "explorer ffv awd",
+		"consommation l/100km": "12.6"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "flex",
+		"consommation l/100km": "12.7"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "flex awd",
+		"consommation l/100km": "12.9"
+	},
+	{
+		"marque": "ford",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "flex awd gtdi",
+		"consommation l/100km": "13.7"
+	},
+	{
+		"marque": "honda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "cr-v awd",
+		"consommation l/100km": "8.6"
+	},
+	{
+		"marque": "honda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "pilot",
+		"consommation l/100km": "11"
+	},
+	{
+		"marque": "hyundai",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "santa fe",
+		"consommation l/100km": "11.3"
+	},
+	{
+		"marque": "hyundai",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "santa fe sport",
+		"consommation l/100km": "10.3"
+	},
+	{
+		"marque": "hyundai",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "santa fe sport awd",
+		"consommation l/100km": "11.1"
+	},
+	{
+		"marque": "hyundai",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "santa fe ultimate awd",
+		"consommation l/100km": "12.5"
+	},
+	{
+		"marque": "hyundai",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "tucson",
+		"consommation l/100km": "9"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "cherokee",
+		"consommation l/100km": "9.5"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "cherokee 4x4",
+		"consommation l/100km": "10"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "cherokee 4x4 active drive ii",
+		"consommation l/100km": "10.1"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "cherokee trailhawk 4x4",
+		"consommation l/100km": "10.8"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "compass",
+		"consommation l/100km": "9.3000000000000007"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "compass 4x4",
+		"consommation l/100km": "9.6999999999999993"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "grand cherokee 4x4",
+		"consommation l/100km": "11.3"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Diesel",
+		"cylindre": "6",
+		"véhicule": "grand cherokee 4x4 diesel",
+		"consommation l/100km": "9.9"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "patriot",
+		"consommation l/100km": "10"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "patriot 4x4",
+		"consommation l/100km": "10.5"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "patriot 4x4 trail rated",
+		"consommation l/100km": "11.1"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "renegade 4x4",
+		"consommation l/100km": "8.8000000000000007"
+	},
+	{
+		"marque": "jeep",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "wrangler unlimited 4x4",
+		"consommation l/100km": "13.4"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "sorento",
+		"consommation l/100km": "10.3"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "sorento awd",
+		"consommation l/100km": "10.9"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "sportage",
+		"consommation l/100km": "11.3"
+	},
+	{
+		"marque": "kia",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "sportage awd",
+		"consommation l/100km": "10.8"
+	},
+	{
+		"marque": "land rover",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "discovery sport",
+		"consommation l/100km": "10.6"
+	},
+	{
+		"marque": "land rover",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "range rover",
+		"consommation l/100km": "12.4"
+	},
+	{
+		"marque": "land rover",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "range rover supercharged lwb",
+		"consommation l/100km": "15.1"
+	},
+	{
+		"marque": "land rover",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "range rover sport",
+		"consommation l/100km": "12.4"
+	},
+	{
+		"marque": "land rover",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "range rover evoque",
+		"consommation l/100km": "9.6999999999999993"
+	},
+	{
+		"marque": "mazda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "cx-5",
+		"consommation l/100km": "8.1999999999999993"
+	},
+	{
+		"marque": "mazda",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "cx-5 4wd",
+		"consommation l/100km": "8.5"
+	},
+	{
+		"marque": "mitsubishi",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "outlander",
+		"consommation l/100km": "8.4"
+	},
+	{
+		"marque": "mitsubishi",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "outlander 4wd",
+		"consommation l/100km": "9"
+	},
+	{
+		"marque": "mitsubishi",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "outlander 4wd",
+		"consommation l/100km": "10.4"
+	},
+	{
+		"marque": "mitsubishi",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "rvr",
+		"consommation l/100km": "9.3000000000000007"
+	},
+	{
+		"marque": "mitsubishi",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "rvr 4wd",
+		"consommation l/100km": "9.6"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "pathfinder",
+		"consommation l/100km": "10.4"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "pathfinder 4wd",
+		"consommation l/100km": "10.7"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "pathfinder 4wd platinum",
+		"consommation l/100km": "11"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "rogue",
+		"consommation l/100km": "8.1999999999999993"
+	},
+	{
+		"marque": "nissan",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "rogue awd",
+		"consommation l/100km": "8.6"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "cayenne",
+		"consommation l/100km": "11.5"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "cayenne gts",
+		"consommation l/100km": "12.6"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "cayenne s",
+		"consommation l/100km": "12"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "8",
+		"véhicule": "cayenne turbo",
+		"consommation l/100km": "14.2"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "macan s",
+		"consommation l/100km": "12.2"
+	},
+	{
+		"marque": "porsche",
+		"carburant": "Essence Super",
+		"cylindre": "6",
+		"véhicule": "macan turbo",
+		"consommation l/100km": "12.3"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "4runner 4wd",
+		"consommation l/100km": "12.8"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "highlander",
+		"consommation l/100km": "11.1"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "highlander hybrid awd",
+		"consommation l/100km": "8.5"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "rav4",
+		"consommation l/100km": "9"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "rav4 hybrid awd",
+		"consommation l/100km": "7.2"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "8",
+		"véhicule": "sequoia 4wd",
+		"consommation l/100km": "16.600000000000001"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "venza",
+		"consommation l/100km": "10.4"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "venza",
+		"consommation l/100km": "10.9"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "venza 4wd",
+		"consommation l/100km": "10.5"
+	},
+	{
+		"marque": "toyota",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "venza 4wd",
+		"consommation l/100km": "11.3"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "tiguan",
+		"consommation l/100km": "11.2"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "tiguan 4motion",
+		"consommation l/100km": "10.6"
+	},
+	{
+		"marque": "volkswagen",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "touareg",
+		"consommation l/100km": "12.2"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "4",
+		"véhicule": "xc60 t5",
+		"consommation l/100km": "9.1"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "5",
+		"véhicule": "xc60 t5 awd",
+		"consommation l/100km": "11"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "xc60 t6 awd",
+		"consommation l/100km": "10.6"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "6",
+		"véhicule": "xc60 3.0t awd",
+		"consommation l/100km": "12"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Ordinaire",
+		"cylindre": "5",
+		"véhicule": "xc70 t5 awd",
+		"consommation l/100km": "11"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "xc90 t5 awd",
+		"consommation l/100km": "10.199999999999999"
+	},
+	{
+		"marque": "volvo",
+		"carburant": "Essence Super",
+		"cylindre": "4",
+		"véhicule": "xc90 t6 awd",
+		"consommation l/100km": "10.6"
+	},
+	{
+		"marque": ""
+	}
+]
