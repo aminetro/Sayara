@@ -11,9 +11,13 @@ import android.os.Handler;
 import android.os.SystemClock;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.Fragment;
 import android.util.JsonReader;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 import android.widget.Toast;
@@ -29,9 +33,9 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.Projection;
-import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
@@ -46,68 +50,91 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MapsActivity extends FragmentActivity implements RoutingListener,OnMapReadyCallback, GoogleMap.OnMarkerClickListener, GoogleApiClient.OnConnectionFailedListener, GoogleApiClient.ConnectionCallbacks {
+public class MapsFragment extends Fragment implements RoutingListener, OnMapReadyCallback, GoogleMap.OnMarkerClickListener, GoogleApiClient.OnConnectionFailedListener, GoogleApiClient.ConnectionCallbacks {
     public static String PREFRENCE_FILNAME = "com.example.asus.mapstations";
     SharedPreferences share;
     private String stationName;
-    List<Station> locationList1;List<Station> locationList2;
-    int stat=0;
+    List<Station> locationList1;
+    List<Station> locationList2;
+    int stat = 0;
     LatLng CurrentLocation;
     private double lon, lat;
     protected LatLng end;
     private GoogleMap mMap;
+    private MapView mapView;
     private Context context;
     private InputStream inshell;
     private InputStream inagile;
     private LocationManager locationManager;
     Vehicule vv;
-    String selectedinfo="";
-    private static final int[] COLORS = new int[]{R.color.primary_dark,R.color.primary,R.color.primary_light,R.color.accent,R.color.primary_dark_material_light};
+    View v;
+    String selectedinfo = "";
+    private static final int[] COLORS = new int[]{R.color.primary_dark, R.color.primary, R.color.primary_light, R.color.accent, R.color.primary_dark_material_light};
 
-
+    FloatingActionButton fab;
     private List<Polyline> polylines;
 
     final MarkerOptions mp = new MarkerOptions();
     final MarkerOptions wanttogo = new MarkerOptions();
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        context = getApplicationContext();
-        share= getSharedPreferences(PREFRENCE_FILNAME, Context.MODE_PRIVATE);
-        vv=new Vehicule();
-        polylines = new ArrayList<>();
-        locationManager = (LocationManager) this.getSystemService(context.LOCATION_SERVICE);
-        inshell = context.getResources().openRawResource(R.raw.stationshell);
-        inagile = context.getResources().openRawResource(R.raw.stationagile);
-        setContentView(R.layout.activity_maps);
-        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
+
     }
 
 
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-     */
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.fragment_maps, container, false);
+
+        fab = (FloatingActionButton) v.findViewById(R.id.fab2);
+        share = this.getActivity().getSharedPreferences(PREFRENCE_FILNAME, Context.MODE_PRIVATE);
+        vv = new Vehicule();
+        polylines = new ArrayList<>();
+        locationManager = (LocationManager) this.getActivity().getSystemService(context.LOCATION_SERVICE);
+        inshell = v.getContext().getResources().openRawResource(R.raw.stationshell);
+        inagile = v.getContext().getResources().openRawResource(R.raw.stationagile);
+
+        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
+
+        //SupportMapFragment mapFragment = (SupportMapFragment) this.getActivity().getSupportFragmentManager().findFragmentById(R.id.map);
+        //mapFragment.getMapAsync(this);
+
+        mapView = (MapView) v.findViewById(R.id.map);
+        mapView.onCreate(savedInstanceState);
+        mapView.onResume();
+        mapView.getMapAsync(this);
+
+        return v;
+    }
+
+
+
+
+        /**
+         * Manipulates the map once available.
+         * This callback is triggered when the map is ready to be used.
+         * This is where we can add markers or lines, add listeners or move the camera. In this case,
+         * we just add a marker near Sydney, Australia.
+         * If Google Play services is not installed on the device, the user will be prompted to install
+         * it inside the SupportMapFragment. This method will only be triggered once the user has
+         * installed Google Play services and returned to the app.
+         */
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        android.location.Location location;
+
+        mMap.getUiSettings().setMapToolbarEnabled(false);
+        Location location;
         stationName = "";
         lon = 0;
         lat = 0;
         // Add a marker in Sydney and move the camera
 
 
-        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+        if (ActivityCompat.checkSelfPermission(this.getActivity(), android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this.getActivity(), android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
             // here to request the missing permissions, and then overriding
@@ -162,6 +189,16 @@ public class MapsActivity extends FragmentActivity implements RoutingListener,On
             }
         });
 
+
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(CurrentLocation, 14));
+
+
+            }
+        });
+
         mMap.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener(){
 
 
@@ -213,8 +250,6 @@ public class MapsActivity extends FragmentActivity implements RoutingListener,On
 
 
     }
-
-
 
 
 
@@ -343,17 +378,17 @@ public class MapsActivity extends FragmentActivity implements RoutingListener,On
         //newFragment.show(getSupportFragmentManager(), "Shortest Route");
 
         if((float)arrayList.get(0).getDistanceValue()/1000 != 0){
-            AlertDialogPro.Builder builder = new AlertDialogPro.Builder(this);
+            AlertDialogPro.Builder builder = new AlertDialogPro.Builder(this.getActivity());
             if(selectedinfo==""){
 
-                Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_LONG).show();
+                Toast.makeText(this.getActivity(),msg,Toast.LENGTH_LONG).show();
 /*
                 builder.setTitle("Shortest Route").
                         setMessage(msg).
                         setNegativeButton("OK", null).
                         show();*/
             }else{
-                Toast.makeText(getApplicationContext(),msg+ "\n\n" + selectedinfo,Toast.LENGTH_LONG).show();
+                Toast.makeText(this.getActivity(),msg+ "\n\n" + selectedinfo,Toast.LENGTH_LONG).show();
                 /*
                 builder.setTitle("Shortest Route").
                         setMessage(msg + "\n\n" + selectedinfo).
@@ -373,13 +408,13 @@ public class MapsActivity extends FragmentActivity implements RoutingListener,On
 
     public void sendRequest()
     {
-        if(Util.Operations.isOnline(this))
+        if(Util.Operations.isOnline(this.getActivity()))
         {
             route(mp.getPosition(),end);
         }
         else
         {
-            Toast.makeText(this,"No internet connectivity",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this.getActivity(),"No internet connectivity",Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -561,5 +596,7 @@ public class MapsActivity extends FragmentActivity implements RoutingListener,On
             }
         });
     }
+
+
 
 }

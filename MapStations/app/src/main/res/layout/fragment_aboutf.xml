@@ -1,0 +1,62 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <ImageView android:src="@drawable/taxit"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+
+        android:layout_gravity="center_horizontal"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="157dp"
+            android:layout_height="match_parent"
+            android:text="Mohamed Amine Trabelsi"
+            android:textColor="#fff"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_marginTop="30dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/amine"
+            android:layout_marginLeft="30dp"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/profile1_image"
+            android:layout_marginTop="50dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/houda"
+            android:layout_marginRight="30dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Houda Ferchichi"
+            android:textColor="#fff"
+            android:layout_marginTop="70dp"
+            android:textSize="20dp"/>
+    </LinearLayout>
+</LinearLayout>

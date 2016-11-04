@@ -30,6 +30,8 @@
 
     <application
         android:allowBackup="true"
+
+        android:largeHeap="true"
         android:icon="@drawable/taxit"
         android:label="Sayara"
         android:supportsRtl="true"
@@ -57,11 +59,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MapsActivity"/>
-        <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ChooseVehiculeActivity"></activity>
+        <activity
+            android:name=".activity_drawer"
+            android:label="Sayara"
+            android:theme="@style/AppTheme.Dark"></activity>
     </application>
 
 </manifest>

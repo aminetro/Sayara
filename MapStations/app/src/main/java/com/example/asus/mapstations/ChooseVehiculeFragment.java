@@ -2,14 +2,16 @@ package com.example.asus.mapstations;
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.util.JsonReader;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -19,7 +21,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ChooseVehiculeActivity extends AppCompatActivity {
+public class ChooseVehiculeFragment extends Fragment {
 
     public static String PREFRENCE_FILNAME = "com.example.asus.mapstations";
     SharedPreferences share;
@@ -39,26 +41,27 @@ public class ChooseVehiculeActivity extends AppCompatActivity {
     CharSequence carburants[] = new CharSequence[] {};
     CharSequence cylindres[] = new CharSequence[] {};
     CharSequence vehicules[] = new CharSequence[] {};
+    private Handler mHandler;
+
+
+
+
+
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        final View v = inflater.inflate(R.layout.fragment_choose_vehicule,container,false);
 
+        mHandler = new Handler();
 
+        inVehicule = v.getContext().getResources().openRawResource(R.raw.listevehicules);
 
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_choose_vehicule);
-        context = getApplicationContext();
+        share= this.getActivity().getSharedPreferences(PREFRENCE_FILNAME, Context.MODE_PRIVATE);
 
-
-
-
-        inVehicule = context.getResources().openRawResource(R.raw.listevehicules);
-        share= getSharedPreferences(PREFRENCE_FILNAME, Context.MODE_PRIVATE);
-
-        marque=(Button)findViewById(R.id.editMarque);
-        carburant=(Button)findViewById(R.id.editCarburant);
-        cylindre=(Button)findViewById(R.id.editCylindre);
-        vehicule=(Button)findViewById(R.id.editVehicule);
-        continu=(Button)findViewById(R.id.continu);
+        marque=(Button)v.findViewById(R.id.editMarque);
+        carburant=(Button)v.findViewById(R.id.editCarburant);
+        cylindre=(Button)v.findViewById(R.id.editCylindre);
+        vehicule=(Button)v.findViewById(R.id.editVehicule);
 
         if(share.getString("marque","")!=""){
 
@@ -130,27 +133,14 @@ public class ChooseVehiculeActivity extends AppCompatActivity {
 
 
 
-        continu.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-        /*
-                MapsActivity fragment = new MapsActivity();
-                android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.frame, fragment);
-                fragmentTransaction.commit();
-                */
-                startActivity(new Intent(ChooseVehiculeActivity.this, MapsActivity.class));
-                finish();
-                System.exit(0);
-            }
 
-        });
 
 
         marque.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 //Intent myIntent = new Intent(view.getContext(), agones.class);
                 //startActivityForResult(myIntent, 0);
-                AlertDialog.Builder builder = new AlertDialog.Builder(ChooseVehiculeActivity.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
                 builder.setTitle("Choisir votre marque");
                 builder.setItems(marques, new DialogInterface.OnClickListener() {
                     @Override
@@ -171,7 +161,7 @@ public class ChooseVehiculeActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Intent myIntent = new Intent(view.getContext(), agones.class);
                 //startActivityForResult(myIntent, 0);
-                AlertDialog.Builder builder = new AlertDialog.Builder(ChooseVehiculeActivity.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
                 builder.setTitle("Choisir votre carburant");
                 builder.setItems(carburants, new DialogInterface.OnClickListener() {
                     @Override
@@ -194,7 +184,7 @@ public class ChooseVehiculeActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Intent myIntent = new Intent(view.getContext(), agones.class);
                 //startActivityForResult(myIntent, 0);
-                AlertDialog.Builder builder = new AlertDialog.Builder(ChooseVehiculeActivity.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
                 builder.setTitle("Choisir votre cylindre");
                 builder.setItems(cylindres, new DialogInterface.OnClickListener() {
                     @Override
@@ -216,15 +206,15 @@ public class ChooseVehiculeActivity extends AppCompatActivity {
 
                 //Intent myIntent = new Intent(view.getContext(), agones.class);
                 //startActivityForResult(myIntent, 0);
-                AlertDialog.Builder builder = new AlertDialog.Builder(ChooseVehiculeActivity.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
 
 
                 for(int i=0;i<locationList1.size();i++){
                     System.out.println(" 99999  "+selectedMarque+selectedCarburant+selectedCylindre);
-                     if((locationList1.get(i).getMarque().equals(selectedMarque) && locationList1.get(i).getCarburant().equals(selectedCarburant) && (locationList1.get(i).getCylindre() + "").equals(selectedCylindre))){
-                         System.out.println("888888888"+locationList1.get(i).getMarque()+" "+locationList1.get(i).getCarburant()+" "+locationList1.get(i).getCylindre()+" "+locationList1.get(i).getNom());
-                         ConsosList.add(locationList1.get(i).getConsomation());
-                         vehiculeList.add(locationList1.get(i).getNom());
+                    if((locationList1.get(i).getMarque().equals(selectedMarque) && locationList1.get(i).getCarburant().equals(selectedCarburant) && (locationList1.get(i).getCylindre() + "").equals(selectedCylindre))){
+                        System.out.println("888888888"+locationList1.get(i).getMarque()+" "+locationList1.get(i).getCarburant()+" "+locationList1.get(i).getCylindre()+" "+locationList1.get(i).getNom());
+                        ConsosList.add(locationList1.get(i).getConsomation());
+                        vehiculeList.add(locationList1.get(i).getNom());
                     }
                 }
                 vehicules=vehiculeList.toArray(new CharSequence[vehiculeList.size()]);
@@ -249,7 +239,7 @@ public class ChooseVehiculeActivity extends AppCompatActivity {
                             editor.putFloat("consomation",(float) selectedConso);
 
                             editor.commit();
-                            Toast.makeText(getApplicationContext(),"Votre Consomation Moyenne pour 100Km = "+ConsosList.get(which),Toast.LENGTH_LONG).show();
+                            Toast.makeText(v.getContext(),"Votre Consomation Moyenne pour 100Km = "+ConsosList.get(which),Toast.LENGTH_LONG).show();
                         }
                     });
                     builder.setNegativeButton("OK",null).show();
@@ -268,31 +258,9 @@ public class ChooseVehiculeActivity extends AppCompatActivity {
 
 
 
-/*
-        marque.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(context);
-                builder.setTitle("Selectionnez votre marque");
-                builder.setItems(marques, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        // the user clicked on colors[which]
-                    }
-                });
-                builder.show();
-            }
-        });
 
-
-
-        */
-
-        //carburant.setOnClickListener(this);
-       // cylindre.setOnClickListener(this);
-       // vehicule.setOnClickListener(this);
+        return v;
     }
-
 
 
 
