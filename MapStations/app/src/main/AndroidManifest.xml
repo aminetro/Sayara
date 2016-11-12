@@ -30,10 +30,9 @@
 
     <application
         android:allowBackup="true"
-
-        android:largeHeap="true"
-        android:icon="@drawable/taxit"
+        android:icon="@drawable/logo"
         android:label="Sayara"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.Dark">
 
@@ -51,7 +50,7 @@
 
         <activity
             android:name=".SplashActivity"
-            android:label="@string/app_name">
+            android:label="Sayara">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -64,7 +63,7 @@
         <activity
             android:name=".activity_drawer"
             android:label="Sayara"
-            android:theme="@style/AppTheme.Dark"></activity>
+            android:theme="@style/AppTheme.Dark" />
     </application>
 
 </manifest>

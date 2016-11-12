@@ -173,7 +173,6 @@ public class MapsFragment extends Fragment implements RoutingListener, OnMapRead
             locationList2=readJsonStreamAgile(inagile);
 
         } catch (IOException e) {
-            System.out.println("ooooooooooooooooooooooooo");
             e.printStackTrace();
         }
 
@@ -223,12 +222,9 @@ public class MapsFragment extends Fragment implements RoutingListener, OnMapRead
             public boolean onMarkerClick(Marker marker) {
 
                     end=marker.getPosition();
-                    System.out.println(marker.getPosition().latitude+"ssssssss"+marker.getPosition().longitude);
-                    for(int count=0;count<locationList2.size();count++){
-                        System.out.println(locationList2.get(count).getLat()+"ssssssss"+locationList2.get(count).getLon());
+                      for(int count=0;count<locationList2.size();count++){
                         if(marker.getPosition().latitude==locationList2.get(count).getLon() && marker.getPosition().longitude==locationList2.get(count).getLat()){
-                            System.out.println("ssssssss"+locationList2.get(count).getInformation());
-                            selectedinfo=locationList2.get(count).getInformation();
+                             selectedinfo=locationList2.get(count).getInformation();
                         }
                     }
 
@@ -238,8 +234,6 @@ public class MapsFragment extends Fragment implements RoutingListener, OnMapRead
                             .waypoints(mp.getPosition(),end)
                             .build();
                     routing.execute();
-
-                    System.out.println("kkkkkkkkkkkkkkkkkkk");
 
 
                 return false;
@@ -354,13 +348,11 @@ public class MapsFragment extends Fragment implements RoutingListener, OnMapRead
         vv.setNom(share.getString("vehicule",""));
 
         vv.setConsomation(share.getFloat("consomation",0));
-        System.out.println("yyyyyyy "+vv.getConsomation()+" "+(float)arrayList.get(0).getDistanceValue()+" "+(float)arrayList.get(0).getDistanceValue());
         DecimalFormat df = new DecimalFormat ( ) ;
         df.setMaximumFractionDigits ( 2 ) ; //arrondi à 2 chiffres apres la virgules
         df.setMinimumFractionDigits ( 2 ) ;
         df.setDecimalSeparatorAlwaysShown ( true ) ;
-        System.out.println ( Double.parseDouble(df.format ( -4.327)));
-        String msg =((float)arrayList.get(0).getDistanceValue())/1000+"Km - "+ ((arrayList.get(0).getDurationValue()/60)+1)+"mn\n\nConsommation - "+Double.parseDouble(df.format ((vv.getConsomation()*(float)arrayList.get(0).getDistanceValue())/1000/100))+" L";
+       String msg =((float)arrayList.get(0).getDistanceValue())/1000+"Km - "+ ((arrayList.get(0).getDurationValue()/60)+1)+"mn\n\nConsommation - "+Double.parseDouble(df.format ((vv.getConsomation()*(float)arrayList.get(0).getDistanceValue())/1000/100))+" L";
 
 /*
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -423,7 +415,6 @@ public class MapsFragment extends Fragment implements RoutingListener, OnMapRead
     {
         if(start==null || end==null)
         {
-            System.out.println("nonononono");
         }
         else
         {
@@ -450,7 +441,6 @@ public class MapsFragment extends Fragment implements RoutingListener, OnMapRead
     public boolean onMarkerClick(Marker marker) {
 
         end=marker.getPosition();
-        System.out.println("ssssss");
 
         Routing routing = new Routing.Builder()
                 .travelMode(Routing.TravelMode.DRIVING)
@@ -472,7 +462,6 @@ public class MapsFragment extends Fragment implements RoutingListener, OnMapRead
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-        System.out.println("tttttttt"+connectionResult.toString());
     }
 
 
@@ -551,7 +540,6 @@ public class MapsFragment extends Fragment implements RoutingListener, OnMapRead
         }
 
 
-        System.out.println("hhhhhhh "+info);
         LatLng loca = new LatLng(lat,lon);
         if(lat!=0)
             mMap.addMarker(new MarkerOptions().position(loca).icon(BitmapDescriptorFactory

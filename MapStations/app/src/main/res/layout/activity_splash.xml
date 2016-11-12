@@ -1,10 +1,11 @@
 <com.skyfishjy.library.RippleBackground
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/content"
-    app:rb_color="#faba10"
+    app:rb_color="#9CCC65"
     app:rb_radius="32dp"
     app:rb_rippleAmount="4"
     app:rb_duration="3000"
@@ -15,6 +16,7 @@
         android:layout_height="64dp"
         android:layout_centerInParent="true"
         android:id="@+id/centerImage"
-        android:src="@drawable/taxit"/>
+        android:src="@drawable/logo"
+        tools:ignore="ContentDescription" />
 
 </com.skyfishjy.library.RippleBackground>

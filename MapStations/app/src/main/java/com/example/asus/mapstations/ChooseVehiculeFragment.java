@@ -6,14 +6,12 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AlertDialog;
 import android.util.JsonReader;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -26,7 +24,6 @@ public class ChooseVehiculeFragment extends Fragment {
     public static String PREFRENCE_FILNAME = "com.example.asus.mapstations";
     SharedPreferences share;
 
-    public static FragmentManager fragmentManager;
     String selectedMarque;String selectedCarburant;String selectedCylindre;String selectedVehicule;double selectedConso;
     Button marque,carburant,cylindre,vehicule,continu;
     Vehicule vv =new Vehicule();
@@ -36,7 +33,6 @@ public class ChooseVehiculeFragment extends Fragment {
     List<String> vehiculeList;
     List<Double> ConsosList;
     List<Vehicule> locationList1;private InputStream inVehicule;
-    private Context context;
     CharSequence marques[] = new CharSequence[] {};
     CharSequence carburants[] = new CharSequence[] {};
     CharSequence cylindres[] = new CharSequence[] {};
@@ -96,7 +92,6 @@ public class ChooseVehiculeFragment extends Fragment {
         ConsosList=new ArrayList<Double>();
         List<Integer> cylindreList2=new ArrayList<Integer>();
         for(int i=1;i<locationList1.size();i++){
-            System.out.println(locationList1.get(i).getMarque()+" "+locationList1.get(i).getCarburant()+" "+locationList1.get(i).getCylindre()+" "+locationList1.get(i).getNom());
 
             if(!(marquesList.contains(locationList1.get(i).getMarque())) && locationList1.get(i).getMarque()!="")
                 marquesList.add(locationList1.get(i).getMarque());
@@ -147,7 +142,6 @@ public class ChooseVehiculeFragment extends Fragment {
                     public void onClick(DialogInterface dialog, int which) {
                         selectedMarque=marquesList.get(which);
                         marque.setText(marquesList.get(which));
-                        System.out.println("oooooo"+marquesList.get(which));
                     }
                 });
                 builder.setNegativeButton("OK",null).show();
@@ -168,7 +162,6 @@ public class ChooseVehiculeFragment extends Fragment {
                     public void onClick(DialogInterface dialog, int which) {
                         selectedCarburant=carburantList.get(which);
                         carburant.setText(carburantList.get(which));
-                        System.out.println("oooooo"+carburantList.get(which));
                     }
                 });
                 builder.setNegativeButton("OK",null).show();
@@ -191,7 +184,6 @@ public class ChooseVehiculeFragment extends Fragment {
                     public void onClick(DialogInterface dialog, int which) {
                         selectedCylindre=cylindreList.get(which);
                         cylindre.setText(cylindreList.get(which));
-                        System.out.println("oooooo"+cylindreList.get(which));
                     }
                 });
                 builder.setNegativeButton("OK",null).show();
@@ -210,9 +202,7 @@ public class ChooseVehiculeFragment extends Fragment {
 
 
                 for(int i=0;i<locationList1.size();i++){
-                    System.out.println(" 99999  "+selectedMarque+selectedCarburant+selectedCylindre);
-                    if((locationList1.get(i).getMarque().equals(selectedMarque) && locationList1.get(i).getCarburant().equals(selectedCarburant) && (locationList1.get(i).getCylindre() + "").equals(selectedCylindre))){
-                        System.out.println("888888888"+locationList1.get(i).getMarque()+" "+locationList1.get(i).getCarburant()+" "+locationList1.get(i).getCylindre()+" "+locationList1.get(i).getNom());
+                   if((locationList1.get(i).getMarque().equals(selectedMarque) && locationList1.get(i).getCarburant().equals(selectedCarburant) && (locationList1.get(i).getCylindre() + "").equals(selectedCylindre))){
                         ConsosList.add(locationList1.get(i).getConsomation());
                         vehiculeList.add(locationList1.get(i).getNom());
                     }
@@ -225,7 +215,6 @@ public class ChooseVehiculeFragment extends Fragment {
                         public void onClick(DialogInterface dialog, int which) {
                             selectedVehicule=vehiculeList.get(which);
                             vehicule.setText(vehiculeList.get(which));
-                            System.out.println("oooooo"+vehiculeList.get(which));
 
 
 
@@ -239,11 +228,14 @@ public class ChooseVehiculeFragment extends Fragment {
                             editor.putFloat("consomation",(float) selectedConso);
 
                             editor.commit();
-                            Toast.makeText(v.getContext(),"Votre Consomation Moyenne pour 100Km = "+ConsosList.get(which),Toast.LENGTH_LONG).show();
-                        }
-                    });
-                    builder.setNegativeButton("OK",null).show();
+                            //Toast.makeText(v.getContext(),"Votre Consomation Moyenne pour 100Km = "+ConsosList.get(which),Toast.LENGTH_LONG).show();
 
+                            AlertDialog.Builder builder2 = new AlertDialog.Builder(v.getContext());
+                            builder2.setTitle("Votre Consomation Moyenne pour 100Km = "+ConsosList.get(which)+"L");
+                            builder2.setNegativeButton("OK",null).show();
+                                }
+                            });
+                    builder.setNegativeButton("OK",null).show();
 
                 }else{
 
@@ -318,8 +310,7 @@ public class ChooseVehiculeFragment extends Fragment {
         if(cylindre==0){
             return null;
         }else {
-            System.out.println(marque + "//" + carburant + "//" + cylindre + "//" + vehicule + "//" + consomation + "//");
-            return new Vehicule(marque, carburant, cylindre, vehicule, consomation);
+             return new Vehicule(marque, carburant, cylindre, vehicule, consomation);
         }
     }
 

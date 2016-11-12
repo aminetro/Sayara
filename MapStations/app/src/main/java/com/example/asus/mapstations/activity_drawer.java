@@ -75,7 +75,24 @@ public class activity_drawer extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_home) {
+            //startActivity(new Intent(activity_drawer.this,ChooseVehiculeActivity.class));
+
+            mHandler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    FragmentManager fragmentManager = getSupportFragmentManager();
+                    Fragment fragment = new HomeFragment();
+                    fragmentManager.beginTransaction().replace(R.id.frames, fragment).commit();
+
+
+                }
+            }, 250);
+
+
+
+            // Handle the camera action
+        } else if (id == R.id.nav_vehicule) {
             //startActivity(new Intent(activity_drawer.this,ChooseVehiculeActivity.class));
 
             mHandler.postDelayed(new Runnable() {
@@ -92,7 +109,7 @@ public class activity_drawer extends AppCompatActivity
 
 
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_map) {
 
             mHandler.postDelayed(new Runnable() {
                 @Override
@@ -104,7 +121,7 @@ public class activity_drawer extends AppCompatActivity
             }, 250);
 
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_about) {
 
 
             mHandler.postDelayed(new Runnable() {
@@ -117,9 +134,7 @@ public class activity_drawer extends AppCompatActivity
                 }
             }, 250);
 
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
+        }else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
 

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
-    <ImageView android:src="@drawable/taxit"
+    <ImageView android:src="@drawable/logo"
         android:layout_width="fill_parent"
         android:layout_height="120dp"
         android:layout_marginTop="60dp"

@@ -13,7 +13,7 @@
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/taxit"
+        app:srcCompat="@drawable/logo"
         android:layout_gravity="center_vertical" />
 
     <TextView
